@@ -9,6 +9,21 @@
     Referrer-Policy = "strict-origin-when-cross-origin"
 
 [[redirects]]
+  from = "/legal/privacy"
+  to = "/legal/privacy.html"
+  status = 200
+
+[[redirects]]
+  from = "/legal/terms"
+  to = "/legal/terms.html"
+  status = 200
+
+[[redirects]]
+  from = "/legal/coppa"
+  to = "/legal/coppa.html"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
