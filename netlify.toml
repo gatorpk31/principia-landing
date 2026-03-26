@@ -12,16 +12,19 @@
   from = "/legal/privacy"
   to = "/legal/privacy.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/legal/terms"
   to = "/legal/terms.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/legal/coppa"
   to = "/legal/coppa.html"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/*"
