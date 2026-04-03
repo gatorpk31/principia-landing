@@ -26,6 +26,25 @@
   status = 200
   force = true
 
+# Short URLs (used in App Store description and app metadata)
+[[redirects]]
+  from = "/terms"
+  to = "/legal/terms.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/privacy"
+  to = "/legal/privacy.html"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/coppa"
+  to = "/legal/coppa.html"
+  status = 200
+  force = true
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
